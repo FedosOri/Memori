@@ -43,9 +43,9 @@ from settings import config
 
 def check(dt):
     dt = dt.split()
-    year = str(dt[0])  # [0]
+    year = str(dt[0])  # [2]
     month = str(dt[1])  # [1]
-    day = str(dt[2])  # [2]
+    day = str(dt[2])  # [0]
     hour = str(dt[3])  # [3]
     minute = str(dt[4])  # [4]
     time_now = datetime.datetime.now()
